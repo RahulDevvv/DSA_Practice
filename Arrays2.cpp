@@ -217,4 +217,49 @@
 // }
 
 //(1,0,0,1,1,1,0)  Count the number of zeros and one
+
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int arr[] = {1, 0, 0, 1, 1, 1, 0};
+//     int size = sizeof(arr) / sizeof(arr[0]);
+
+//     int count0 = 0, count1 = 0;
+
+//     for(int i = 0; i < size; i++) {
+//         if(arr[i] == 0)
+//             count0++;
+//         else if(arr[i] == 1)
+//             count1++;
+//     }
+
+//     cout << "Number of 0s: " << count0 << endl;
+//     cout << "Number of 1s: " << count1 << endl;
+
+//     return 0;
+// }
+
+
 //{4,7,8,3,1,10,17}, k=9 -> count the number of elements greater than k
+
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int arr[] = {4, 7, 8, 3, 1, 10, 17};
+//     int size = sizeof(arr) / sizeof(arr[0]);
+//     int k = 9;
+//     int count = 0;
+
+//     for(int i = 0; i < size; i++) {
+//         if(arr[i] > k)
+//             count++;
+//     }
+
+//     cout << "Number of elements greater than " << k << ": " << count << endl;
+
+//     return 0;
+// }
